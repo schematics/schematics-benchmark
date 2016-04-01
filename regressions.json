@@ -1,0 +1,36 @@
+{
+    "regressions": [
+        [
+            "bench_validation.TimeValidationSuite.time_validate_dictionary", 
+            "graphs/arch-x86_64/branch-development/cpu-Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz/machine-aws-ec2-micro/os-Linux 3.13.0-74-generic/python-2.7/ram-1GB/bench_validation.TimeValidationSuite.time_validate_dictionary.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        1455197305000, 
+                        1455907005000
+                    ]
+                ], 
+                2.8422579000000004e-05, 
+                2.18979507e-05
+            ]
+        ], 
+        [
+            "bench_validation.TimeValidationSuite.time_validate_model", 
+            "graphs/arch-x86_64/branch-development/cpu-Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz/machine-aws-ec2-micro/os-Linux 3.13.0-74-generic/python-2.7/ram-1GB/bench_validation.TimeValidationSuite.time_validate_model.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        1455197305000, 
+                        1455907005000
+                    ]
+                ], 
+                4.024786515000001e-05, 
+                2.8811832299999996e-05
+            ]
+        ]
+    ]
+}

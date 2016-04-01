@@ -1,0 +1,122 @@
+{
+    "benchmarks": {
+        "bench_validation.MemValidationSuite.mem_model_instance": {
+            "code": "def mem_model_instance(self):\n    return Foo(data, validate=True)\n", 
+            "name": "bench_validation.MemValidationSuite.mem_model_instance", 
+            "param_names": [], 
+            "params": [], 
+            "timeout": 60.0, 
+            "type": "memory", 
+            "unit": "bytes"
+        }, 
+        "bench_validation.MemValidationSuite.peakmem_validate_dictionary": {
+            "code": "def peakmem_validate_dictionary(self):\n    for i in xrange(10000):\n        validate(Foo, data)\n", 
+            "name": "bench_validation.MemValidationSuite.peakmem_validate_dictionary", 
+            "param_names": [], 
+            "params": [], 
+            "timeout": 60.0, 
+            "type": "peakmemory", 
+            "unit": "bytes"
+        }, 
+        "bench_validation.MemValidationSuite.peakmem_validate_model": {
+            "code": "def peakmem_validate_model(self):\n    for i in xrange(10000):\n        Foo(data, validate=True)\n", 
+            "name": "bench_validation.MemValidationSuite.peakmem_validate_model", 
+            "param_names": [], 
+            "params": [], 
+            "timeout": 60.0, 
+            "type": "peakmemory", 
+            "unit": "bytes"
+        }, 
+        "bench_validation.TimeValidationSuite.time_validate_dictionary": {
+            "code": "def time_validate_dictionary(self):\n    validate(Foo, data)\n", 
+            "goal_time": 2.0, 
+            "name": "bench_validation.TimeValidationSuite.time_validate_dictionary", 
+            "number": 0, 
+            "param_names": [], 
+            "params": [], 
+            "repeat": 0, 
+            "timeout": 60.0, 
+            "type": "time", 
+            "unit": "seconds"
+        }, 
+        "bench_validation.TimeValidationSuite.time_validate_model": {
+            "code": "def time_validate_model(self):\n    Foo(data, validate=True)\n", 
+            "goal_time": 2.0, 
+            "name": "bench_validation.TimeValidationSuite.time_validate_model", 
+            "number": 0, 
+            "param_names": [], 
+            "params": [], 
+            "repeat": 0, 
+            "timeout": 60.0, 
+            "type": "time", 
+            "unit": "seconds"
+        }
+    }, 
+    "date_to_hash": {
+        "1449738403000": "d677aa7c", 
+        "1449926648000": "e3f78559", 
+        "1453809783000": "8ecc96c9", 
+        "1453810165000": "248687c1", 
+        "1453817259000": "bfc1c5cf", 
+        "1453843303000": "5e6e0835", 
+        "1453916846000": "bb39a1a1", 
+        "1453918233000": "a678f126", 
+        "1454351923000": "aabe2bde", 
+        "1454618781000": "d6308949", 
+        "1454786287000": "c04dcacd", 
+        "1455197305000": "0ead9c19", 
+        "1455907005000": "3414d41f", 
+        "1455978653000": "4fdca50f", 
+        "1456934344000": "21107491", 
+        "1457040412000": "a814db55"
+    }, 
+    "extra_pages": [
+        [
+            "regressions", 
+            "Show regressions", 
+            "Display information about recent regressions"
+        ]
+    ], 
+    "machines": {
+        "aws-ec2-micro": {
+            "arch": "x86_64", 
+            "cpu": "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz", 
+            "machine": "aws-ec2-micro", 
+            "os": "Linux 3.13.0-74-generic", 
+            "ram": "1GB", 
+            "version": 1
+        }
+    }, 
+    "params": {
+        "arch": [
+            "x86_64"
+        ], 
+        "branch": [
+            "development"
+        ], 
+        "cpu": [
+            "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz"
+        ], 
+        "machine": [
+            "aws-ec2-micro"
+        ], 
+        "os": [
+            "Linux 3.13.0-74-generic"
+        ], 
+        "python": [
+            "2.7"
+        ], 
+        "ram": [
+            "1GB"
+        ]
+    }, 
+    "project": "schematics", 
+    "project_url": "https://schematics.readthedocs.org/", 
+    "show_commit_url": "http://github.com/schematics/schematics/commit/", 
+    "tags": {
+        "v1.1.0": 1436709540000, 
+        "v1.1.1": 1446594527000, 
+        "v2.0.0.dev1": 1454351923000, 
+        "v2.0.0.dev2": 1454618781000
+    }
+}
