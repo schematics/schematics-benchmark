@@ -1,0 +1,14 @@
+*.pyc
+__pycache__
+
+# asv
+html/
+env/
+results/
+schematics/
+
+# virtualenv
+bin/
+include/
+lib/
+pip-selfcheck.json
