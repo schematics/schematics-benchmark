@@ -20,4 +20,4 @@ To run the suite::
 
     sh run.sh
 
-Refer to the `asv documentation <https://asv.readthedocs.org/>`_ for more info.
+Refer to the `asv documentation <https://asv.readthedocs.io/>`_ for more info.
